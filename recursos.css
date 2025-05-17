@@ -21,8 +21,8 @@ body{
     background-color: var(--color4);
 }
 a {
+    color: var(--color3);
     text-decoration: none;
-    color: var(--color5);
 }
 .nav ul{
     display: flex;
@@ -43,7 +43,7 @@ a {
     margin-bottom: 3%;
 }
 .nav{
-    background-color: var(--color3);
+    background-color: var(--color5);
     width: 90%;
     display: flex;
     border-radius: 10px;
@@ -61,39 +61,50 @@ a {
     height:auto;
 }
 .section1{
-    text-align: center;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 93%;
-    background-color: var(--color3);
+    background-color: var(--color5);
 }
-.corte1{
-    height: 50px;
-    display: flex;
-    align-items: center;
+.section1 h2{
     font-family: var(--font1);
-    color: var(--color6);
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 .section1 h3{
+    color: var(--color1);
+    font-family: var(--font2);
+}
+.section1 h4{
+    color:var(--color3) ;
     font-family: var(--font3);
-    color: var(--color8);
 }
-.tabla{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-color: var(--color5);
-    border-radius: 10px;
+.jogos{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
-.tabla td{
-    width: 100px;
+.sopa{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    width: 30%;
 }
-.tabla tr{
-    height: 50px;
+.laberinto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
 }
-.img1 img{
+.roompecabezas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+}
+.sopa img{
     margin-top: 15px;
     height: auto;
     margin-bottom: 10px;
@@ -101,19 +112,19 @@ a {
     object-fit: contain;
     object-position: center;
 }
-.img2 img{
+.laberinto img{
     margin-top: 15px;
     height: auto;
     margin-bottom: 10px;
     width: 100%;
     object-fit: contain;
     object-position: center;
-} 
-.img3 img{
+}
+.roompecabezas img{
     margin-top: 15px;
     height: auto;
     margin-bottom: 10px;
     width: 100%;
     object-fit: contain;
     object-position: center;
-} 
+}

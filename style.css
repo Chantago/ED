@@ -1,20 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Funnel+Display:wght@300..800&family=Great+Vibes&family=Rowdies:wght@300;400;700&display=swap');
 *{
     padding: 0;
     margin: 0;
-
 }
+:root{
+    --color1:#10002B;
+    --color2:#3C096C;
+    --color3:#5A189A;
+    --color4:#9D4EDD;
+    --color5:#E0AAFF;
+    --color6:#ee964b;
+    --color7:#faf0ca;
+    --color8:#fcd5ce;
+
+
+    --font1: "Rowdies", sans-serif;
+    --font2: "Cal Sans", sans-serif;
+    --font3: "Funnel Display", sans-serif;
+    --font4: "Great Vibes", cursive;
+}
+
 body{
-    background-color: grey;
+    background-color: var(--color4);
 }
 a {
     text-decoration: none;
+    color: var(--color5);
 }
 .nav ul{
+
     display: flex;
     list-style-type: none;
     justify-content: space-between;
 }
 .nav li{
+    font-family: var(--font2);
     display: flex;
     width: auto;
     margin-right: 10px;
@@ -27,7 +47,7 @@ a {
     margin-bottom: 3%;
 }
 .nav{
-    background-color: lightcoral;
+    background-color: var(--color3);
     width: 90%;
     display: flex;
     border-radius: 10px;
@@ -42,7 +62,7 @@ a {
 .main{
     display: flex;
     justify-content: center;
-    height:80vh;
+    height:75vh;
 }
 .section1{
     border-radius: 10px;
@@ -51,14 +71,24 @@ a {
     flex-direction: column;
     justify-content: center;
     width: 93%;
-    background-color: pink;
+    background-color: var(--color3);
+}
+.section1 h1{
+    color:var(--color6);
+    font-family:var(--font1);
+    margin-bottom: 15px;
 }
 .section1 h2{
+    color: #faf0ca;
+    font-family: var(--font2);
     margin-bottom: 15px;
 }
 .section1 h3{
+    font-family: var(--font4), cursive;
     padding-left: 150px;
 }
 .section1 h4{
+    font-family: var(--font3);
     padding-left: 170px;
+    color: var(--color8);
 }

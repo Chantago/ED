@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: black;
+}
+a {
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.nav li{
+    display: flex;
+    width: 50px;
+}
+.header{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    margin-bottom: 3%;
+}
+.nav{
+    background-color: lightcoral;
+    width: 90%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    display: flex;
+    width: 50px;
+    margin: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    height:auto;
+}
+.section1{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 93%;
+    background-color: pink;
+}
+.corte1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.tabla{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+.tabla td{
+    width: 100px;
+    text-align: center;
+}
+.tabla tr{
+    height: 50px;
+}
+.img1 img{
+    margin-top: 15px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.img2 img{
+    margin-top: 15px;
+    height: 150px;
+    margin-bottom: 10px;
+} 
+.img3 img{
+    margin-top: 15px;
+    height: 300px;
+    margin-bottom: 10px;
+} 
